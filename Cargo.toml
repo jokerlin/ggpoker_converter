@@ -7,5 +7,5 @@ edition = "2021"
 
 [dependencies]
 walkdir = "2.3.2"
-clap = "3.0.0-beta.5" # 命令行解析
+clap = { version = "3.0.0-beta.5", features = ["derive"] }  # 命令行解析
 regex = "1.5.4"
